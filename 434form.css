@@ -1,0 +1,56 @@
+form
+{
+    background-color: rgb(240, 150, 240);
+    margin-left: 550px;
+    margin-right: 600px;
+    margin-top: 150px;
+    width: 350px;
+}
+body
+{
+    background-color: rgb(240, 150, 240);
+}
+.rest input
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(97, 6, 66);
+}
+
+label
+{
+    color: rgb(97, 6, 66);
+    font-size: 20px;
+}
+h1
+{
+    padding-left: 50px;
+    color: rgb(97, 6, 66);
+}
+
+.gen input
+{
+    margin-top: 3px;
+    margin-bottom: 40px;
+    
+}
+
+.gen .yup
+{
+    color: rgb(97, 6, 66);
+    font-size: 20px;
+}
