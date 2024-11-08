@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBINATION</title>
+</head>
+<body>
+    <script>
+        function factorial(n) {
+            if (n === 0 || n === 1) return 1;
+            return n * factorial(n - 1);
+        }
+        
+        function combination(n, r) {
+            return factorial(n) / (factorial(r) * factorial(n - r));
+        }
+        
+        function findCombination(x, y) {
+            if (x > y) {
+            // Calculate xCy
+            return combination(x, y);
+        } else if (y > x) {
+            // Calculate yCx
+            return combination(y, x);
+        } else {
+            // Since x = y, calculate (x+1)Cy
+            return combination(x + 1, y);
+        }
+        }
+        
+        
+        let x = 2;
+        let y = 5;
+        console.log(findCombination(x, y)); // Output when y > x
+    </script>
+</body>
+</html>
